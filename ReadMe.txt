@@ -24,7 +24,7 @@ C.	How to use?
 	* Behold the beauty that is ThrowCrate! (destination folder should have the same stuff as the tracked one)
 	* Kill each process when done
 	
-C.	What are the limitations?
+D.	What are the limitations?
 	There are no known limitations but it's a lot easier to define the things that were tested, than the things that were not...
 	Tested (all passed):
 	- folder-within-folder, up to 5 layers
@@ -37,7 +37,7 @@ C.	What are the limitations?
 	- Created (copied from an unwatched dir) a 5-layer folder
 	- Created excessive files/folders at the "destination" (system detecs and deletes)
 
-D.	Features:
+E.	Features:
 	- Developed initially with some os-agnosticism. Although ultimately untested, I imagine any os-related problem will be quick to fix
 	- For now, let's say Windows-only
 	- IPv4, streaming sockets only
@@ -45,7 +45,7 @@ D.	Features:
 	- Some automated tests
 	- Some simple "logging" on screen of each client/server
 	
-E.	Ideas to improve:
+F.	Ideas to improve:
 	1.	More tests
 	2.	Feedback from users
 	3.	"Warning: There's already a used source directory: /// New source directory will invalidate currect files in destination"
@@ -71,7 +71,7 @@ E.	Ideas to improve:
 	23. General code cleanup
 	24. Learn what are static fields in Python :)
 	
-E.	Feedback from candidate:
+G.	Feedback from candidate:
 	That was probably more homework than I've ever done for all my interviews, combined :)
 	That being said, it was fun, I learned a lot of Python and maybe the program can even
 	be useful to me (I do like my files and I don't like DropBox/OneDrive/etc...)
