@@ -12,6 +12,8 @@ B.	Really, though... What is this?
 C.	How to use?
 	You will need a platform or two for the client and server to reside in. They should be running OS's that have a Python 3.8
 	implementation. ThrowCrate has some ideas about OS-independece but not fully tested. Please use Windows :)
+	* Edit the client.py file, line #10, to point to your server host
+	* Server and cliet agree on port 9181, which you should either have opened on both platforms, or configured in .py files
 	* Each Client or Server should start without any environments configured or modules linked.
 	* Start server first ("python3.8 server"), provide back up destination 
 	* Then, start client ("python3.8 client"), provide directory to watch
